@@ -32,3 +32,9 @@ Blazor contains all the features of a modern web framework such as:
  - Full .NET debugging both in browsers and in the IDE
  - Rich IntelliSense and tooling
  - Publishing and app size trimming
+
+## Setup
+
+ - Download and install the [.NET Core 2.1 SDK (2.1.300 or later)](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial).
+ - Download and install [Visual Studio 2017 (15.7 or later)](https://visualstudio.microsoft.com/vs/) with the ASP.NET and web development workload selected.
+ - Download and install the latest [ASP.NET Core Blazor Language Services](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor) extension from the Visual Studio Marketplace.
