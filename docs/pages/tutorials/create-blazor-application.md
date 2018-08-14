@@ -1,5 +1,7 @@
 # Create Blazor Application
 
+Blazor is an experimental .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly. Blazor provides all of the benefits of a client-side web UI framework using .NET on the client and optionally on the server.
+
 Once the environment is set up, you can create the Blazor application from **File > New** menu and choose **Project...** menu item.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/Blazor-Tutotrial/master/docs/images/create-first-app1.png">
