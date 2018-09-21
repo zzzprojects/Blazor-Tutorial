@@ -43,3 +43,5 @@ In other frameworks such as Angular, one-way data binding is also known as inter
 }
 
 ```
+
+<img src="https://raw.githubusercontent.com/zzzprojects/Blazor-Tutotrial/master/docs/images/one-way-data-binding.png">
