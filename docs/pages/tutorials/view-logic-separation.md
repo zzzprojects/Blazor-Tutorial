@@ -89,7 +89,7 @@ namespace BlazorApplication.Pages
         [JSInvokable]
         public static void CSCallBackMethod()
         {
-            message = "C# function called from  JavaScript ";
+            message = "C# function called from JavaScript ";
         }
     }
 }
