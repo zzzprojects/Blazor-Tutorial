@@ -64,7 +64,7 @@ Let's have a look at an example which contains the view and view logic in single
 }
 ```
 
-Now to isolate the view from view logic, let's move the C# code to the base class by creating a new Blazor component class and move all the C# code which is defined inside `@functions`.
+Now, to isolate the view from view logic, let's move the C# code to the base class by creating a new Blazor component class and move all the C# code which is defined inside `@functions`.
 
 ```csharp
 using Microsoft.JSInterop;
