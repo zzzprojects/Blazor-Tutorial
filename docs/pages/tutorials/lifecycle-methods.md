@@ -1,6 +1,6 @@
 # Lifecycle Methods
 
-The Blazor application provides different Synchronous as well the asynchronous life cycle methods. 
+The Blazor application provides different synchronous as well as asynchronous lifecycle methods.
 
  - OnInit
  - OnInitAsync
@@ -83,7 +83,7 @@ The synchronous and asynchronous version of the application methods to perform t
 
  - The `OnAfterRender` and `OnAfterRenderAsync` methods are called after each render of the component. 
  - At the point they are called you can expect that all element and component references are populated.
- - It means that if you need to perform an action, such as attaching an event listener, which requires the elements of the component to be rendered in the DOM. 
+ - It means that if you need to perform an action, such as attaching an event listener, it requires the elements of the component to be rendered in the DOM.  
  - Another great use for these lifecycle methods is for JavaScript library initialization, which requires DOM elements to be in place to work.
 
  ```csharp
