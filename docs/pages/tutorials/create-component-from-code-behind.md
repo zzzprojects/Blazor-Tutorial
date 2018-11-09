@@ -24,7 +24,7 @@ namespace BlazorApplication
 }
 ```
 
-The Counter.cshtml file will use the properties and methods from the code behind class by just adding `@inherits CounterClass`.
+The Counter.cshtml file will use the properties and methods from the code behind class just by adding  `@inherits CounterClass`.
 
 ```csharp
 @page "/counter"
