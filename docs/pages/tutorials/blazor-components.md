@@ -1,6 +1,6 @@
 # Blazor Components
 
-## What is Component
+## What is a Component
 
 A component is a self-contained chunk of user interface (UI), such as a page, dialog, or form. Blazor applications are created using components which are flexible, lightweight, and can be nested, reused, and shared between projects.
 
@@ -38,5 +38,5 @@ A component in Blazor ends up as a class including both the HTML markup to rende
 
 Members of the component class are defined in a `@functions` block, and you can use more than one `@functions` block in a component. 
 
- - In the `@functions` block, component state such as properties and fields are specified along with methods for event handling or for defining other component logic.
+ - In the `@functions` block, component state such as properties and fields are specified along with methods for event handling or for defining other component logics.
  - Component members can then be used as part of the component's rendering logic using C# expressions that start with @. 
