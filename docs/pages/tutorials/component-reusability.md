@@ -1,6 +1,6 @@
 # Component Reusability
 
-In Blazor, you can easily add and reuse any component  in other components by declaring them using HTML element syntax. The markup for using a component looks like an HTML tag where the name of the tag is the component type.
+In Blazor, you can easily add and reuse any component in other components by declaring them using HTML element syntax. The markup for using a component looks like an HTML tag where the name of the tag is the component type.
 
 The following markup renders a Counter (counter.cshtml) instance.
 
