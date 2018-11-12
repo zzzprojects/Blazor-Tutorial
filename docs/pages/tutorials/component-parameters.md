@@ -22,7 +22,7 @@ In markup, you can specify arguments (parameters) for a component using attribut
 <Counter SubTitle="Subtitle from Index (Home) page"/>
 ```
 
-Let's added this markup to the Home (index.cshtml) component.
+Let's add this markup to the Home (index.cshtml) component.
 
 ```csharp
 @page "/"
@@ -36,6 +36,6 @@ Welcome to your new app.
 <Counter SubTitle="Subtitle from Index (Home) page"/>
 ```
 
-Now you can see the sub-title of a counter component on a home page.
+Now, you can see the subtitle of a counter component on a home page.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/Blazor-Tutotrial/master/docs/images/component-parameters.png">

@@ -18,7 +18,7 @@ Blazor's DI system is based on the [DI system in ASP.NET Core](https://docs.micr
 
 ## Default services
 
-By defaul, Blazor's `BrowserServiceProvider` automatically adds the following services to the service collection of an application.
+By default, Blazor's `BrowserServiceProvider` automatically adds the following services to the service collection of an application.
 
 |Method	    |Description    |
 |:----------|:--------------|
@@ -27,7 +27,7 @@ By defaul, Blazor's `BrowserServiceProvider` automatically adds the following se
 
 ## Add services to DI
 
-Here is a simple service which will retrieve employees data asynchronously. 
+Here is a simple service which will retrieve employee's data asynchronously. 
 
 ```csharp
 using System;
