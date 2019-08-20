@@ -2,8 +2,8 @@
 
 The Blazor application provides different synchronous as well as asynchronous lifecycle methods.
 
- - OnInit
- - OnInitAsync
+ - OnInitialized
+ - OnInitializedAsync
  - OnParametersSet
  - OnParametersSetAsync
  - OnAfterRender
@@ -14,11 +14,11 @@ The Blazor application provides different synchronous as well as asynchronous li
 
 The synchronous and asynchronous version of the application methods which gets executed when the component gets Initialized. 
 
- - The `OnInit` is called first, then `OnInitAsync`. 
+ - The `OnInitialized` is called first, then `OnInitializedAsync`. 
  - It is executed when the component is completely loaded. 
  - You can use this method to load data from services because each control in the UI is loaded after this method. 
  - It is executed when the component is ready and when it has received the values from the parent in the render tree.
- - Any asynchronous operations, which require the component to re-render once they complete, should be placed in the `OnInitAsync` method.
+ - Any asynchronous operations, which require the component to re-render once they complete, should be placed in the `OnInitializedAsync` method.
  
 ```csharp
 @page "/"
@@ -33,13 +33,13 @@ The synchronous and asynchronous version of the application methods which gets e
 @functions{
     List<string> EventType = new List<string>();
 
-    protected override void OnInit()
+    protected override void OnInitialized()
     {
-        EventType.Add("OnInit is called");
+        EventType.Add("OnInitialized is called");
     }
-    protected override async Task OnInitAsync()
+    protected override async Task OnInitializedAsync()
     { 
-        EventType.Add("OnInitAsync is called");
+        EventType.Add("OnInitializedAsync is called");
         await Task.Delay(1000);          
     }
 }
